@@ -1,8 +1,8 @@
 # go-micrograd
 
-> :warning: This is a learning resource created from the original [karpathy/micrograd repository](https://github.com/karpathy/micrograd) in Python, and [its amazing lecture in youtube](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=1)
+> :warning: This is a learning resource created from the original [karpathy/micrograd repository](https://github.com/karpathy/micrograd) in Python, and [its amazing lecture in youtube
 
-A minimalist Autograd engine implemented in Go! Built with a focus on backpropagation (reverse-mode autodiff) over a dynamically constructed DAG and an essential neural networks library with an API inspired by PyTorch. Though petite, with approximately 100 lines for the engine and 50 for the neural network library, the DAG operates solely on scalar values. This means, for instance, each neuron is broken down into its base mathematical operations. However, it's capable of constructing entire deep neural nets for binary classification, as demonstrated in the demo.
+This reposiository is a simple learning resource about how a Neural Network works in Go programming language, so it does adjust and learn from results. It's only xxx lines of code. However, it's capable of constructing entire deep neural nets for binary classification, as demonstrated in the demo.
 
 **Potential Use Cases:** Primarily educational.
 
